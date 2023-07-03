@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Resume - Shuang Wu</title>
+
+    <style>
+      @page {
+        size: A4;
+      }
+      @font-face {
+        font-family: "Tinos";
+        src: url("fonts/Tinos/Tinos-BoldItalic.ttf");
+        font-weight: bold;
+        font-style: italic, oblique;
+      }
+      @font-face {
+        font-family: "Tinos";
+        src: url("fonts/Tinos/Tinos-Bold.ttf");
+        font-weight: bold;
+      }
+      @font-face {
+        font-family: "Tinos";
+        src: url("fonts/Tinos/Tinos-Italic.ttf");
+        font-style: italic, oblique;
+      }
+      @font-face {
+        font-family: "Tinos";
+        src: url("fonts/Tinos/Tinos-Regular.ttf");
+      }
+    </style>
+  </head>
+  <body class="font-['Tinos'] leading-tight">
+    <header class="flex flex-col items-center">
+      <h1 class="text-2xl font-bold">Shuang Wu</h1>
+      <div class="flex gap-2">
+        <span><a href="tel:+17657019003">(765) 701-9003</a></span>
+        <span>
+          <a href="mailto:seanwu1105@gmail.com">seanwu1105@gmail.com</a>
+        </span>
+      </div>
+      <div class="flex gap-2">
+        <a href="https://github.com/seanwu1105">
+          <div class="flex gap-1">
+            <img src="images/github.svg" />
+            <span>seanwu1105</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/seanwu1105/">
+          <div class="flex gap-1">
+            <img src="images/linkedin.svg" />
+            <span>Shuang-Wu</span>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <section class="text-justify">
+      <h2 class="text-lg font-bold uppercase border-b border-black my-2">
+        Work Experience
+      </h2>
+
+      <article class="ml-6">
+        <section class="my-1">
+          <header class="flex gap-2 my-1">
+            <div class="grow">
+              <a href="https://www.jumptrading.com/">
+                <h3 class="inline-block font-bold">Jump Trading, LLC.</h3>
+              </a>
+              <p class="italic">Software Engineer</p>
+            </div>
+            <div class="text-right">
+              <p>Chicago, IL</p>
+              <p>June 2023 - Present</p>
+            </div>
+          </header>
+
+          <ul class="list-disc marker:text-xs">
+            <li>Built, test and deploy web app for internal trading needs</li>
+          </ul>
+        </section>
+
+        <section class="my-1">
+          <header class="flex gap-2 my-1">
+            <div class="grow">
+              <a href="https://www.jumptrading.com/">
+                <h3 class="inline-block font-bold">Jump Trading, LLC.</h3>
+              </a>
+              <p class="italic">Software Engineering Intern</p>
+            </div>
+            <div class="text-right">
+              <p>Chicago, IL</p>
+              <p>June 2022 - August 2022</p>
+            </div>
+          </header>
+
+          <ul class="list-disc marker:text-xs">
+            <li>
+              Implemented a feature-rich tree editor supporting contextual
+              validation with Next.js and AG Grid
+            </li>
+            <li>
+              Cooperated with backend team and UX designers to build responsive
+              UI system showing contextual validation results
+            </li>
+            <li>
+              Achieved <span class="font-bold">98%</span> overall code coverage
+              with clean architecture and detailed unit/integrated tests
+            </li>
+            <li>
+              Leveraged Backend for Frontend (BFF) pattern to keep the UI layer
+              stateless and testable
+            </li>
+          </ul>
+        </section>
+
+        <section class="my-1">
+          <header class="flex gap-2 my-1">
+            <div class="grow">
+              <a href="https://www.numbersprotocol.io/">
+                <h3 class="inline-block font-bold">Numbers Co., Ltd.</h3>
+              </a>
+              <p class="italic">Software Engineer</p>
+            </div>
+            <div class="text-right">
+              <p>Taipei, Taiwan</p>
+              <p>May 2020 - May 2021</p>
+            </div>
+          </header>
+
+          <ul class="list-disc marker:text-xs">
+            <li>
+              Optimized an Ionic app,
+              <a href="https://github.com/numbersprotocol/capture-lite"
+                >Capture Lite</a
+              >, to increase performance by
+              <span class="font-bold">40%</span> and reduce memory usage by
+              <span class="font-bold">30%</span>
+              with reactive programming and reduced DOM repaint times
+            </li>
+            <li>
+              Cooperated with
+              <a href="https://www.starlinglab.org/">Starling Lab</a> to
+              generate and store traceable digital evidence in a decentralized
+              network with
+              <a href="https://github.com/numbersprotocol/starling-capture"
+                >Starling Capture app</a
+              >
+            </li>
+            <li>
+              Maintained a stable and fast iteration (<span class="font-bold"
+                >2</span
+              >
+              releases per week) for Starling Capture app to catch historic
+              events on time, such as Syrian Civil War and
+              <a href="https://www.starlinglab.org/78days/"
+                >the 2020 US Presidential Election</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="my-1">
+          <header class="flex gap-2 my-1">
+            <div class="grow">
+              <a href="https://dt42.io/"
+                ><h3 class="inline-block font-bold">DT42 Co., Ltd.</h3></a
+              >
+              <p class="italic">Software Engineer</p>
+            </div>
+            <div class="text-right">
+              <p>Taipei, Taiwan</p>
+              <p>July 2019 - January 2020</p>
+            </div>
+          </header>
+
+          <ul class="list-disc marker:text-xs">
+            <li>
+              Designed an intricate Kotlin coroutine system under limited
+              resources on Android devices to port a distributed AIoT framework,
+              <a href="https://github.com/DT42/BerryNet">BerryNet</a>, from
+              Rasberry Pi with MQTT
+            </li>
+            <li>
+              Setup CI/CD with GitHub Action for an Angular project to detect
+              <span class="font-bold">85%</span> software defects before each
+              release
+            </li>
+          </ul>
+        </section>
+      </article>
+    </section>
+
+    <section class="text-justify">
+      <h2 class="text-lg font-bold uppercase border-b border-black my-2">
+        Technical Skills
+      </h2>
+
+      <article class="ml-6">
+        <p>
+          Programming Languages: Python, TypeScript, JavaScript, Kotlin, Java,
+          SQL, C/C++, QML
+        </p>
+        <p>
+          Tools: React, Next.js, Angular, Ionic, RxJS, VTK, Android, PWA,
+          Docker, CI/CD, PyQt6, Node.js, Git
+        </p>
+      </article>
+    </section>
+
+    <section class="text-justify">
+      <h2 class="text-lg font-bold uppercase border-b border-black my-2">
+        Education
+      </h2>
+
+      <article class="ml-6">
+        <section class="flex gap-2 my-1">
+          <div class="grow">
+            <h3 class="font-bold">Purdue University</h3>
+            <p class="italic">Master of Science in Computer Science</p>
+          </div>
+          <div class="text-right">
+            <p>West Lafayette, IN</p>
+            <p>August 2021 - May 2023</p>
+          </div>
+        </section>
+
+        <section class="flex gap-2 my-1">
+          <div class="grow">
+            <h3 class="font-bold">National Central University</h3>
+            <p class="italic">
+              Bachelor of Science in Computer Science and Information
+              Engineering
+            </p>
+          </div>
+          <div class="text-right">
+            <p>Taoyuan, Taiwan</p>
+            <p>September 2015 - June 2019</p>
+          </div>
+        </section>
+      </article>
+    </section>
+
+    <section class="text-justify">
+      <h2 class="text-lg font-bold uppercase border-b border-black my-2">
+        Selected Project
+      </h2>
+
+      <article class="ml-6">
+        <section class="my-1">
+          <header class="flex gap-2 my-1">
+            <div class="grow">
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=seanwu.vscode-qt-for-python"
+              >
+                <h3 class="inline-block font-bold">
+                  Visual Studio Code Extension: Qt for Python
+                </h3>
+              </a>
+            </div>
+            <p class="text-right">December 2018 - Present</p>
+          </header>
+
+          <ul class="list-disc marker:text-xs">
+            <li>
+              Created a Visual Studio Code extension which has been installed
+              <span class="font-bold">456,000+</span> times on the official
+              extension marketplace
+            </li>
+            <li>
+              Developed the syntax highlighting in Qt languages to boost
+              productivity with PyQt6 and PySide6 frameworks
+            </li>
+            <li>
+              Constructed an automatic environment resolver to integrate Visual
+              Studio Code with Qt tools on all desktop platforms
+            </li>
+          </ul>
+        </section>
+      </article>
+    </section>
+  </body>
+</html>
